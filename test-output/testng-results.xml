@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-26T21:21:37 IST" name="Default suite" finished-at="2020-09-26T21:21:39 IST" duration-ms="1895">
+  <suite started-at="2020-09-26T23:17:12 IST" name="Suite" finished-at="2020-09-26T23:17:15 IST" duration-ms="3044">
     <groups>
     </groups>
-    <test started-at="2020-09-26T21:21:37 IST" name="Default test" finished-at="2020-09-26T21:21:39 IST" duration-ms="1895">
+    <test started-at="2020-09-26T23:17:12 IST" name="Test" finished-at="2020-09-26T23:17:15 IST" duration-ms="3044">
       <class name="requests.DELETE">
-        <test-method signature="test01()[pri:0, instance:requests.DELETE@1677d1]" started-at="2020-09-26T21:21:37 IST" name="test01" finished-at="2020-09-26T21:21:39 IST" duration-ms="1868" status="PASS">
+        <test-method signature="test01()[pri:0, instance:requests.DELETE@5e316c74]" started-at="2020-09-26T23:17:14 IST" name="test01" finished-at="2020-09-26T23:17:15 IST" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
       </class> <!-- requests.DELETE -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="requests.PUT_PATCH">
+        <test-method signature="test02_PATCH()[pri:0, instance:requests.PUT_PATCH@6ac13091]" started-at="2020-09-26T23:17:14 IST" name="test02_PATCH" finished-at="2020-09-26T23:17:14 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_PATCH -->
+      </class> <!-- requests.PUT_PATCH -->
+      <class name="requests.GET">
+        <test-method signature="test02()[pri:0, instance:requests.GET@48fa0f47]" started-at="2020-09-26T23:17:13 IST" name="test02" finished-at="2020-09-26T23:17:14 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+      </class> <!-- requests.GET -->
+      <class name="requests.POST">
+        <test-method signature="test01()[pri:0, instance:requests.POST@1677d1]" started-at="2020-09-26T23:17:12 IST" name="test01" finished-at="2020-09-26T23:17:13 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+      </class> <!-- requests.POST -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
